@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="{% static 'blog/style.css' %}" />
+		<title>Bio</title>
+		<meta name="description" content="This is the bio page">
+	</head>
+	<body>
+		<header>
+			<h1>Bio</h1>
+			<nav>
+				<a href="/blog/main">Main</a>
+				<a href="/blog/bio">Bio</a>
+				<a href="/blog/tech-tips">Tech Tips</a>
+			</nav>
+		</header>
+		<main>
+			<article>
+				<h3>About Me</h3>
+				<img src="https://nhl.bamcontent.com/images/headshots/current/168x168/8476381.jpg" alt="Headshot of Andrew Shaw">
+				<p>
+					Nam pharetra sem quis accumsan sollicitudin. In eget porttitor tellus.
+					Donec convallis semper odio, sit amet auctor purus accumsan at. Nam at
+					tortor tincidunt, commodo dui et, faucibus leo. Etiam faucibus facilisis
+					elit, vel cursus felis eleifend id. Nunc efficitur nunc in quam aliquam
+					tincidunt. Quisque eu semper tellus. Suspendisse potenti. Duis dictum, eros
+					tristique pretium rutrum, odio risus dignissim neque, id ornare lacus est 
+					et massa.
+				</p>
+				<p>
+					Nullam sem eros, aliquet sed mauris finibus, tempus elementum orci. Vivamus
+					gravida non turpis eget consectetur. Class aptent taciti sociosqu ad litora
+					torquent per conubia nostra, per inceptos himenaeos. Suspendisse eleifend,
+					sapien a aliquet sagittis, lorem eros rutrum leo, sed elementum elit nibh in
+					urna. In eleifend elit a enim vestibulum, vitae auctor nisi scelerisque. Vivamus
+					ac nisl ut est vestibulum scelerisque. Cras scelerisque id massa sit amet
+					tincidunt. Aliquam erat volutpat. Donec suscipit massa tortor. Sed ultricies
+					pulvinar velit. Vivamus aliquam interdum nisl vitae elementum. Donec sodales
+					ultricies libero, id bibendum tortor tristique quis. Curabitur luctus lacus sit
+					amet tempor molestie.
+				</p>
+				<p>
+					Aenean hendrerit lorem ac nibh iaculis blandit. Nam sem nisl, consectetur vel
+					velit vitae, hendrerit convallis orci. Cras at enim iaculis eros posuere rutrum
+					sit amet eget neque. Vestibulum ante ipsum primis in faucibus orci luctus et
+					ultrices posuere cubilia Curae; Suspendisse feugiat sem ornare, suscipit nulla
+					nec, fringilla nunc. Fusce in massa nisl. Suspendisse fringilla tellus et egestas
+					laoreet. Vivamus ut eros elit. Sed vel augue lorem. Suspendisse potenti. Aliquam
+					sed gravida ligula. Aliquam nec porta justo, ut vestibulum purus. Donec eget
+					hendrerit nisl.
+				</p>
+			</article>
+		</main>
+		<aside>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png" alt="Canadian Flag">
+			<img src="https://secure.img2-ag.wfcdn.com/im/83447517/resize-h700-p1-w700%5Ecompr-r85/2901/29013555/NHL+Montreal+Canadiens+Roundel+Mat.jpg" alt="Montreal Canadiens">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Capitals-Maple_Leafs_%2834075134291%29.jpg/1200px-Capitals-Maple_Leafs_%2834075134291%29.jpg" alt="Hockey Game">
+		</aside>
+		<footer>
+			<p>Andrew Shaw</p>
+			<p>Copyright 2018 Andrew Shaw</p>
+			<p>{{ current_time }}</p>
+		</footer>
+	</body>
+</html>
