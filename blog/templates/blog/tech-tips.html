@@ -49,16 +49,16 @@
 	    			</ol>
 		    		<p>Sources:</p>
     				<ul>
-      					<li><a href="http://guides.beanstalkapp.com/version-control/common-git-commands.html">Common Git Commands</a></li>
-      					<li><a href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html">Basic Git Commands</a></li>
-		      			<li><a href="https://git-scm.com/docs">Git Reference</a></li>
+      					<li><a href="{% url 'blog:common git commands' %}">Common Git Commands</a></li>
+      					<li><a href="{% url 'blog:basic git commands' %}">Basic Git Commands</a></li>
+		      			<li><a href="{% url 'blog:git reference' %}">Git Reference</a></li>
     				</ul>
 			</article>
 		</main>
 		<aside>
-			<img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/lord-of-the-rings-balrog-francis-lee.jpg" alt="Balrog">
-			<img src="https://static.comicvine.com/uploads/original/8/80103/4399251-63-img-54.jpg" alt="Boba Fett">
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/United_States_Air_Force_Civil_Engineer_Badge.svg/1280px-United_States_Air_Force_Civil_Engineer_Badge.svg.png" alt="Civil Engineering Badge">
+			<img src="{% static 'blog/lord-of-the-rings-balrog-francis-lee.jpg' %}" alt="Balrog">
+			<img src="{% static 'blog/4399251-63-img-54.jpg' %}" alt="Boba Fett">
+			<img src="{% static 'blog/United_States_Air_Force_Civil_Engineer_Badge.svg.png' %}" alt="Civil Engineering Badge">
 		</aside>
 		<footer>
 			<p>Andrew Shaw</p>
